@@ -17,8 +17,7 @@ function cosineSimilarity(a, b) {
 
 async function main() {
 
-    const jobDescription =
-        "Looking for a React Node developer with 3 years experience"
+    const jobDescription = "Looking for a React Node developer with 3 years experience"
 
     const jobSkills = extractSkills(jobDescription);
 

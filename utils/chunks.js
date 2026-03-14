@@ -18,7 +18,7 @@ async function loadResumes() {
         for (let i = 1; i <= pdf.numPages; i++) {
             const page = await pdf.getPage(i);
             const content = await page.getTextContent();
-            const pageText = content.items.map(item => item.str).join(" ");
+            const pageText = content.items.map(item => item.str).join("");
             text += pageText + " ";
         }
 
@@ -38,6 +38,7 @@ async function loadResumes() {
 function cleanText(text) {
     return text
         .replace(/\s+/g, " ")
+        .replace(/-\s+/g, "")
         .replace(/\.([A-Z])/g, ". $1")
         .replace(/\s+([.,:;])/g, "$1")
         .replace(/\S+@\S+\.\S+/g, "")
