@@ -212,42 +212,42 @@ This generates 6 PNG charts and `analysis_report.json` in your project root.
 ### Dataset Overview
 Experience distribution across 30 candidates and top skills frequency.
 
-![Dataset Overview](charts/chart_1_dataset.png)
+![Dataset Overview](https://raw.githubusercontent.com/Pooja9783/RAG-Based-Profile-matching/master/chart_1_dataset.png)
 
 ---
 
 ### Embedding Quality
 Pairwise cosine similarity distribution across all 435 resume pairs and a 10×10 similarity heatmap.
 
-![Embedding Quality](charts/chart_2_embeddings.png)
+![Embedding Quality](https://raw.githubusercontent.com/Pooja9783/RAG-Based-Profile-matching/master/chart_2_embeddings.png)
 
 ---
 
 ### Retrieval Accuracy
 Precision@5 and Precision@10 measured across all 5 job descriptions.
 
-![Retrieval Accuracy](charts/chart_3_retrieval.png)
+![Retrieval Accuracy](https://raw.githubusercontent.com/Pooja9783/RAG-Based-Profile-matching/master/chart_3_retrieval.png)
 
 ---
 
 ### Performance Metrics
 Average latency and throughput for DB load, similarity search, and full pipeline.
 
-![Latency Benchmarks](charts/chart_4_latency.png)
+![Latency Benchmarks](https://raw.githubusercontent.com/Pooja9783/RAG-Based-Profile-matching/master/chart_4_latency.png)
 
 ---
 
 ### Chunking Strategy Comparison
 Sentence-based chunking vs fixed-size chunking — size distribution and summary stats.
 
-![Chunking Comparison](charts/chart_5_chunking.png)
+![Chunking Comparison](https://raw.githubusercontent.com/Pooja9783/RAG-Based-Profile-matching/master/chart_5_chunking.png)
 
 ---
 
 ### Hybrid Scoring Analysis
 Per-candidate comparison of pure semantic score vs hybrid score (0.7 semantic + 0.3 skill).
 
-![Hybrid Scoring](charts/chart_6_hybrid.png)
+![Hybrid Scoring](https://raw.githubusercontent.com/Pooja9783/RAG-Based-Profile-matching/master/chart_6_hybrid.png)
 
 ---
 
