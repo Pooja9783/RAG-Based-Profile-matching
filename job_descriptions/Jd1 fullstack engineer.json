@@ -1,0 +1,23 @@
+{
+  "id": "JD001",
+  "title": "Full Stack Engineer",
+  "company": "TechCorp India",
+  "location": "Bangalore, India",
+  "experience_required": "3+ years",
+  "description": "We are looking for a Full Stack Engineer with 3+ years of experience building scalable web applications. The ideal candidate should have strong proficiency in React and Node.js with hands-on experience in MongoDB and Express. You will be responsible for designing and implementing RESTful APIs, building responsive frontend interfaces, and collaborating with cross-functional teams.",
+  "must_have_skills": ["React", "Node.js", "MongoDB", "Express"],
+  "good_to_have_skills": ["TypeScript", "Docker", "AWS"],
+  "responsibilities": [
+    "Build and maintain full stack web applications using React and Node.js",
+    "Design and implement RESTful APIs using Express and MongoDB",
+    "Write clean, maintainable, and well-documented code",
+    "Collaborate with UI/UX designers to implement responsive interfaces",
+    "Participate in code reviews and agile sprints"
+  ],
+  "requirements": [
+    "3+ years of experience in full stack development",
+    "Strong knowledge of JavaScript, React, and Node.js",
+    "Experience with MongoDB and Express",
+    "Familiarity with Git and agile workflows"
+  ]
+}

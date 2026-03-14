@@ -1,0 +1,251 @@
+{
+  "job_description": "\n    Looking for a Senior React and Node.js developer with 3+ years of experience.\n    Must have strong knowledge of MongoDB and REST API design.\n    Experience with Docker and AWS is a plus.\n",
+  "must_have_skills": [
+    "React",
+    "Node.js"
+  ],
+  "total_candidates_evaluated": 30,
+  "candidates_after_filter": 25,
+  "top_matches": [
+    {
+      "candidate_name": "Divya Reddy",
+      "resume_path": "resumes/resume_10.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 6,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 6 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Aditya Kulkarni",
+      "resume_path": "resumes/resume_11.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 5,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 5 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Pooja Desai",
+      "resume_path": "resumes/resume_12.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 3,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 3 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Siddharth Jain",
+      "resume_path": "resumes/resume_13.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 4,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 4 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Meera Joshi",
+      "resume_path": "resumes/resume_14.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 6,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 6 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Aman Bansal",
+      "resume_path": "resumes/resume_15.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 3,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 3 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Riya Chatterjee",
+      "resume_path": "resumes/resume_16.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 6,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 6 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Kavya Menon",
+      "resume_path": "resumes/resume_18.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 5,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 5 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Varun Malhotra",
+      "resume_path": "resumes/resume_19.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 3,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 3 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    },
+    {
+      "candidate_name": "Tarun Arora",
+      "resume_path": "resumes/resume_21.pdf",
+      "match_score": 57,
+      "semantic_score": 0.6,
+      "skill_match_score": 0.5,
+      "experience_years": 4,
+      "matched_skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "all_candidate_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "relevant_excerpts": [
+        "tion and messaging. Tech Stack: ReactJS, Node.js, ExpressJS, MongoDB, Socket.io. Education MERN Stack Web Development – Masai School, Bangalore"
+      ],
+      "reasoning": "Matched 3/6 required skills: React, Node.js, MongoDB. Missing skills: REST API, AWS, Docker. Candidate has 4 years of experience. Meets the 3+ years requirement for general. Moderate semantic alignment with job description (60%)."
+    }
+  ]
+}

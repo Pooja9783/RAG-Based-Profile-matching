@@ -1,0 +1,23 @@
+{
+  "id": "JD003",
+  "title": "Backend Engineer — Node.js",
+  "company": "DataStream Technologies",
+  "location": "Hyderabad, India",
+  "experience_required": "5+ years",
+  "description": "We need an experienced Backend Engineer with 5+ years of Node.js development to join our platform team. You will design and build high-performance microservices, own the API layer, and work closely with DevOps on Docker and AWS deployments. Strong experience with MongoDB, SQL databases, and REST API design is essential.",
+  "must_have_skills": ["Node.js", "Express", "MongoDB", "REST API"],
+  "good_to_have_skills": ["Docker", "AWS", "PostgreSQL", "Microservices"],
+  "responsibilities": [
+    "Design and build scalable Node.js microservices",
+    "Develop and maintain REST APIs consumed by web and mobile clients",
+    "Optimise database queries for MongoDB and PostgreSQL",
+    "Containerise services using Docker and deploy on AWS",
+    "Write unit and integration tests for all backend services"
+  ],
+  "requirements": [
+    "5+ years of backend development with Node.js and Express",
+    "Strong understanding of REST API design principles",
+    "Experience with MongoDB and relational databases",
+    "Familiarity with Docker and cloud platforms (AWS/GCP/Azure)"
+  ]
+}

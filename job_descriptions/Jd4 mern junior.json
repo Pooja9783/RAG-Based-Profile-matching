@@ -1,0 +1,23 @@
+{
+  "id": "JD004",
+  "title": "Junior MERN Stack Developer",
+  "company": "StartupHub",
+  "location": "Pune, India",
+  "experience_required": "1-2 years",
+  "description": "We are looking for a motivated Junior MERN Stack Developer with 1-2 years of experience to join our fast-growing startup. You should have a solid foundation in MongoDB, Express, React, and Node.js, and a passion for building great user experiences. This is a great opportunity to grow quickly in a startup environment.",
+  "must_have_skills": ["React", "Node.js", "MongoDB", "JavaScript"],
+  "good_to_have_skills": ["Express", "Git", "Agile"],
+  "responsibilities": [
+    "Develop and maintain features across the MERN stack",
+    "Implement UI components based on design mockups",
+    "Integrate frontend with backend REST APIs",
+    "Participate in daily standups and agile ceremonies",
+    "Write and maintain technical documentation"
+  ],
+  "requirements": [
+    "1-2 years of experience with the MERN stack",
+    "Good understanding of JavaScript fundamentals",
+    "Ability to work with REST APIs",
+    "Eagerness to learn and grow in a fast-paced environment"
+  ]
+}

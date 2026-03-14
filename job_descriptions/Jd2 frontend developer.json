@@ -1,0 +1,23 @@
+{
+  "id": "JD002",
+  "title": "Senior Frontend Developer",
+  "company": "PixelWorks Studio",
+  "location": "Remote",
+  "experience_required": "4+ years",
+  "description": "We are hiring a Senior Frontend Developer with 4+ years of experience specialising in React and modern JavaScript. You will lead the frontend development of our SaaS product, build reusable component libraries, and ensure high performance and responsiveness across all devices. Experience with TypeScript, Next.js, and Redux is strongly preferred.",
+  "must_have_skills": ["React", "JavaScript", "CSS", "HTML"],
+  "good_to_have_skills": ["TypeScript", "Next.js", "Redux", "Tailwind"],
+  "responsibilities": [
+    "Lead frontend development of the core SaaS product",
+    "Build and maintain a reusable React component library",
+    "Optimize application performance and page load times",
+    "Implement pixel-perfect UI from Figma designs",
+    "Mentor junior frontend developers"
+  ],
+  "requirements": [
+    "4+ years of hands-on React development",
+    "Deep understanding of JavaScript ES6+ and CSS",
+    "Experience with state management (Redux or Context API)",
+    "Strong understanding of responsive design and cross-browser compatibility"
+  ]
+}

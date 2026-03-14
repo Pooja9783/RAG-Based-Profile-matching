@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-03-14T13:16:45.125Z",
+  "dataset": {
+    "total_resumes": 30,
+    "total_chunks": 180,
+    "avg_chunks_per_resume": 6,
+    "embedding_model": "Xenova/all-MiniLM-L6-v2",
+    "embedding_dimensions": 384,
+    "experience_distribution": {
+      "2_years": 5,
+      "3_years": 6,
+      "4_years": 4,
+      "5_years": 7,
+      "6_years": 8
+    }
+  },
+  "embedding_quality": {
+    "total_pairs": 435,
+    "mean_similarity": 0.712,
+    "min_similarity": 0.526,
+    "max_similarity": 0.904,
+    "pairs_above_0_8": 55,
+    "pairs_above_0_7": 249,
+    "interpretation": "High average similarity (0.712) reflects homogeneous MERN stack dataset. Model successfully differentiates candidates."
+  },
+  "retrieval_accuracy": [
+    {
+      "jd_id": "JD001",
+      "jd_title": "Full Stack Engineer",
+      "precision_at_5": 1,
+      "precision_at_10": 1
+    },
+    {
+      "jd_id": "JD002",
+      "jd_title": "Senior Frontend Dev",
+      "precision_at_5": 1,
+      "precision_at_10": 1
+    },
+    {
+      "jd_id": "JD003",
+      "jd_title": "Backend Node.js Eng",
+      "precision_at_5": 1,
+      "precision_at_10": 1
+    },
+    {
+      "jd_id": "JD004",
+      "jd_title": "Junior MERN Dev",
+      "precision_at_5": 1,
+      "precision_at_10": 1
+    },
+    {
+      "jd_id": "JD005",
+      "jd_title": "Senior Tech Lead",
+      "precision_at_5": 1,
+      "precision_at_10": 0.8
+    }
+  ],
+  "performance": {
+    "db_load_ms": {
+      "avg": 21.61,
+      "min": 16.27,
+      "max": 35.86
+    },
+    "similarity_search_ms": {
+      "avg": 0.08,
+      "min": 0.06,
+      "max": 0.18
+    },
+    "full_pipeline_ms": {
+      "avg": 0.34,
+      "min": 0.17,
+      "max": 0.73
+    },
+    "throughput": {
+      "db_load_qps": 46.3,
+      "similarity_qps": 12500,
+      "full_pipeline_qps": 2941.2
+    }
+  },
+  "chunking": {
+    "strategy": "Sentence-based with overlap",
+    "max_chunk_size_chars": 400,
+    "overlap_chars": 80,
+    "total_chunks": 180,
+    "avg_chunk_length": 318.6,
+    "min_chunk_length": 143,
+    "max_chunk_length": 399,
+    "vs_fixed_size": {
+      "fixed_total_chunks": 150,
+      "fixed_avg_length": 383.1,
+      "winner": "Sentence-based — preserves semantic context better"
+    }
+  },
+  "scoring": {
+    "formula": "0.7 × semantic_similarity + 0.3 × skill_match_score",
+    "rationale": "Semantic score captures overall profile fit; skill score ensures critical technologies are not missed",
+    "hybrid_vs_semantic": "Hybrid scoring reranks candidates by up to ±10 points vs pure semantic"
+  },
+  "charts_generated": [
+    "chart_1_dataset.png",
+    "chart_2_embeddings.png",
+    "chart_3_retrieval.png",
+    "chart_4_latency.png",
+    "chart_5_chunking.png",
+    "chart_6_hybrid.png"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "JD005",
+  "title": "Senior Full Stack Tech Lead",
+  "company": "EnterpriseEdge Solutions",
+  "location": "Bangalore, India",
+  "experience_required": "6+ years",
+  "description": "We are seeking a Senior Full Stack Tech Lead with 6+ years of experience to lead a team of 5 engineers. You must have deep expertise in React, Node.js, MongoDB, and REST API design. Experience with system design, microservices architecture, Docker, and AWS is required. You will be responsible for technical decision-making, code reviews, and mentoring junior developers.",
+  "must_have_skills": ["React", "Node.js", "MongoDB", "JavaScript", "Express"],
+  "good_to_have_skills": ["Docker", "AWS", "Microservices", "System Design", "TypeScript"],
+  "responsibilities": [
+    "Lead a team of 5 engineers across frontend and backend",
+    "Make key architectural and technology decisions",
+    "Design scalable system architecture for enterprise features",
+    "Conduct thorough code reviews and enforce best practices",
+    "Collaborate with product and design teams on feature planning",
+    "Mentor junior and mid-level developers"
+  ],
+  "requirements": [
+    "6+ years of full stack development experience",
+    "Strong expertise in React, Node.js, MongoDB and Express",
+    "Experience in system design and microservices",
+    "Prior experience in a tech lead or senior engineer role",
+    "Excellent communication and team collaboration skills"
+  ]
+}

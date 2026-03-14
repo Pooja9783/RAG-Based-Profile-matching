@@ -1,35 +1,31 @@
-const fs = require("fs");
-const path = require("path");
+const fs    = require("fs");
+const path  = require("path");
 const pdfjs = require("pdfjs-dist/legacy/build/pdf.mjs");
 
 const resumeFolder = "./resumes";
 
 async function loadResumes() {
     const files = fs.readdirSync(resumeFolder).filter(f => f.endsWith(".pdf"));
-    let results = [];
+    const results = [];
 
     for (const file of files) {
+        console.log(`  Processing: ${file}`);
         const filePath = path.join(resumeFolder, file);
-        const data = new Uint8Array(fs.readFileSync(filePath));
-        const pdf = await pdfjs.getDocument({ data }).promise;
+        const data     = new Uint8Array(fs.readFileSync(filePath));
+        const pdf      = await pdfjs.getDocument({ data }).promise;
 
         let text = "";
-
         for (let i = 1; i <= pdf.numPages; i++) {
-            const page = await pdf.getPage(i);
+            const page    = await pdf.getPage(i);
             const content = await page.getTextContent();
-            const pageText = content.items.map(item => item.str).join("");
+            const pageText = content.items.map(item => item.str).join(" ");
             text += pageText + " ";
         }
 
         const cleanedText = cleanText(text);
-        const chunks = chunkResumeBySentences(cleanedText);
+        const chunks      = chunkResumeBySentences(cleanedText);
 
-        results.push({
-            file,
-            text: cleanedText,
-            chunks
-        });
+        results.push({ file, text: cleanedText, chunks });
     }
 
     return results;
@@ -49,17 +45,17 @@ function cleanText(text) {
 
 function chunkResumeBySentences(text) {
     const maxChunkSize = 400;
-    const overlap = 80;
+    const overlap      = 80;
 
-    const sentenceRegex = /[^.!?]+[.!?]+[\])'"`’”]*|.+$/g;
-    const sentences = text.match(sentenceRegex) || [];
+    const sentenceRegex = /[^.!?]+[.!?]+[\])'"`'"]*|.+$/g;
+    const sentences     = text.match(sentenceRegex) || [];
 
-    let chunks = [];
+    const chunks = [];
     let currentChunk = "";
 
     for (const sentence of sentences) {
         if ((currentChunk + sentence).length > maxChunkSize) {
-            chunks.push(currentChunk.trim());
+            if (currentChunk.trim()) chunks.push(currentChunk.trim());
             const overlapText = currentChunk.slice(-overlap);
             currentChunk = overlapText + sentence;
         } else {
