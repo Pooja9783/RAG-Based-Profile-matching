@@ -125,9 +125,8 @@ function buildReasoning(jobSkills, candidate, expRequirements) {
 }
 
 // ─────────────────────────────────────────────
-// FIX 3: Must-have skill filtering
-// Old code: no filtering at all — every candidate passed through.
-// Now: candidates missing any must-have skill are excluded entirely
+
+// candidates missing any must-have skill are excluded entirely
 //      before scoring and ranking happens.
 // ─────────────────────────────────────────────
 function passesMustHaveFilter(candidate, mustHaveSkills, expRequirements) {
@@ -163,7 +162,7 @@ async function matchJobs(jobDescription, mustHaveSkills = [], topK = 10) {
         "Xenova/all-MiniLM-L6-v2"
     );
 
-    // FIX 1: Dynamically extract skills and experience requirements from JD
+    //: Dynamically extract skills and experience requirements from JD
     const jobSkills = extractSkills(jobDescription);
     const expRequirements = extractExperienceRequirements(jobDescription);
 
@@ -192,7 +191,7 @@ async function matchJobs(jobDescription, mustHaveSkills = [], topK = 10) {
 
     const scored = Object.values(candidateScores);
 
-    // FIX 3: Filter out candidates who don't meet must-have requirements
+    //  Filter out candidates who don't meet must-have requirements
     const filtered = [];
     const rejected = [];
 
